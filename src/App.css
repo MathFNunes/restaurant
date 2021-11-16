@@ -2,6 +2,115 @@
   text-align: center;
 }
 
+.headerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list {
+  text-align: initial;
+}
+.listHeader {
+  margin-left: 2.4em;
+}
+.listItem {
+  border: solid 1px #111111;
+  border-radius: 10px;
+  background-color: #111111;
+  margin-bottom: 10px;
+  text-decoration: unset;
+  color: #fff;
+  width: 80%;
+}
+
+.listPlateTitle {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listPlateName {
+  width: 60%;
+}
+.listPlatePrice {
+  width: 40%;
+  text-align: end;
+}
+.listPlatesFooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: right;
+}
+
+.addPlate {
+  text-align: initial;
+  display: grid;
+  margin-left: 2.4em;
+  width: 80%;
+}
+.btnAddPlate {
+  color: black;
+  background: orange;
+  max-width: 300px;
+  height: 2em;
+  border-radius: 10px;
+  margin: '10px'
+}
+.iptAddPlate {
+  border-radius: 10px;
+  height: 2em;
+  max-width: 700px;
+}
+.txtAreaAddPlate {
+  border-radius: 10px;
+  max-width: 700px;
+}
+
+.navBackBtn {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
+}
+
+.margin20px {
+  margin-left: 20px;
+}
+.margin10pxBottom {
+  margin-bottom: 20px;
+}
+.margin15pxtop {
+  margin-top: 15px;
+}
+.margin10pxend {
+  margin-right: 15px;
+}
+.fontSize {
+  font-size: 4em;
+}
+.fontSize14px {
+  font-size: 14px;
+}
+.width100px {
+  width: 100px;
+}
+.iconHeader {
+  font-size: 2.4rem;
+  margin-left: 0.6em;
+  margin-top: 0.5em;
+  color: #fff
+}
+.colorCustom {
+  color:orange;
+}
+.borderOrange {
+  border-left: 10px solid orange;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
